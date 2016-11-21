@@ -10,7 +10,7 @@
 namespace Zephia\OLXFeed;
 
 use JMS\Serializer\SerializerInterface;
-use Zephia\OLXFeed\Entity\VehicleBag;
+use Zephia\OLXFeed\Entity\AdBag;
 
 /**
  * Class Document
@@ -38,12 +38,12 @@ class Document
     /**
      * Document generate.
      *
-     * @param VehicleBag $vehicleBag
+     * @param AdBag $adBag
      *
      * @return string
      */
-    public function generate(VehicleBag $vehicleBag)
+    public function generate(AdBag $adBag)
     {
-        return $this->serializer->serialize($vehicleBag, 'xml');
+        return $this->serializer->serialize($adBag, 'xml');
     }
 }

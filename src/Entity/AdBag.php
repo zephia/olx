@@ -10,12 +10,12 @@
 namespace Zephia\OLXFeed\Entity;
 
 /**
- * Class VehicleBag
+ * Class AdBag
  *
  * @package Zephia\OLXFeed\Entity
  * @author  Mauro Moreno <moreno.mauro.emanuel@gmail.com>
  */
-class VehicleBag
+class AdBag
 {
 
 }
