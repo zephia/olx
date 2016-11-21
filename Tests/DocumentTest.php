@@ -1,6 +1,6 @@
 <?php
 
-namespace MauroMoreno\AutoLeadDataFormat\Tests;
+namespace Zephia\OLXFeed\Tests;
 
 use JMS\Serializer\SerializerInterface;
 use Zephia\OLXFeed\Document;
