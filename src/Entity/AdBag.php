@@ -28,7 +28,7 @@ class AdBag
      *
      * @return array
      */
-    public function getAds(): array
+    public function getAds()
     {
         return $this->ads;
     }
