@@ -1,0 +1,6 @@
+Zephia\OLXFeed\Entity\Image:
+  access_type: public_method
+  exclusion_policy: NONE
+  properties:
+    url:
+      xml_value: true

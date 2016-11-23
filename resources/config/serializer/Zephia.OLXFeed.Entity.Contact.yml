@@ -1,0 +1,12 @@
+Zephia\OLXFeed\Entity\Contact:
+  access_type: public_method
+  exclusion_policy: NONE
+  properties:
+    email:
+      type: "string"
+      serialized_name: "contact_email"
+    phone:
+      type: "string"
+      serialized_name: "contact_phone"
+      xml_element:
+        cdata: true

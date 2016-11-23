@@ -9,53 +9,46 @@
  */
 
 namespace Zephia\OLXFeed\Entity;
+use Zephia\OLXFeed\Exception\LogicException;
 
 /**
- * Class AdBag
+ * Class Image
  *
  * @package Zephia\OLXFeed\Entity
  * @author  Mauro Moreno <moreno.mauro.emanuel@gmail.com>
  */
-class AdBag
+class Image extends Entity
 {
     /**
-     * @var array
+     * @var string
      */
-    private $ads = [];
+    private $url = '';
 
     /**
-     * Get Ads
+     * Get URL
      *
-     * @return array
+     * @return string
      */
-    public function getAds(): array
+    public function getUrl()
     {
-        return $this->ads;
+        if (empty($this->url)) {
+            throw new LogicException(
+                sprintf(self::ERROR_MISSING_ATTRIBUTE_FORMAT, 'url')
+            );
+        }
+        return $this->url;
     }
 
     /**
-     * Set Ads
+     * Set URL
      *
-     * @param array $ads
-     *
-     * @return $this
-     */
-    public function setAds(array $ads)
-    {
-        $this->ads = $ads;
-        return $this;
-    }
-
-    /**
-     * Add an ad
-     *
-     * @param Ad $ad
+     * @param string $url
      *
      * @return $this
      */
-    public function addAd(Ad $ad)
+    public function setUrl(string $url)
     {
-        $this->ads[] = $ad;
+        $this->url = $url;
         return $this;
     }
 }

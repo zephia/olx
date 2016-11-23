@@ -1,0 +1,30 @@
+Zephia\OLXFeed\Entity\Vehicle:
+  access_type: public_method
+  accessor_order: custom
+  custom_accessor_order: [id, title, description, contact, location, category, year, make, model, mileage, condition, fuel, transmission, color, images, price, price_currency]
+  exclusion_policy: NONE
+  properties:
+    color:
+      type: "int"
+      serialized_name: "vehicle_color"
+    condition:
+      type: "int"
+      serialized_name: "vehicle_condition"
+    fuel:
+      type: "int"
+      serialized_name: "vehicle_fuel"
+    make:
+      type: "int"
+      serialized_name: "vehicle_make"
+    mileage:
+      type: "int"
+      serialized_name: "vehicle_mileage"
+    model:
+      type: "int"
+      serialized_name: "vehicle_model"
+    transmission:
+      type: "int"
+      serialized_name: "vehicle_transmission"
+    year:
+      type: "int"
+      serialized_name: "vehicle_year"

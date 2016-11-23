@@ -8,7 +8,7 @@ use Zephia\OLXFeed\Entity\AdBag;
 
 class DocumentTest extends \PHPUnit_Framework_TestCase
 {
-    public function testGenerateOk()
+    public function test_generate_ok()
     {
         $serializer = $this->mockSerializer();
         $serializer->expects(

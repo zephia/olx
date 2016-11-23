@@ -1,0 +1,24 @@
+Zephia\OLXFeed\Entity\Location:
+  access_type: public_method
+  accessor_order: custom
+  custom_accessor_order: [country, state, city, neighborhood, latitude, longitude]
+  exclusion_policy: NONE
+  properties:
+    city:
+      type: "string"
+      serialized_name: "location_city"
+    country:
+      type: "string"
+      serialized_name: "location_country"
+    latitude:
+      type: "string"
+      serialized_name: "location_latitud"
+    longitude:
+      type: "string"
+      serialized_name: "location_longitude"
+    neighborhood:
+      type: "string"
+      serialized_name: "location_neighborhood"
+    state:
+      type: "string"
+      serialized_name: "location_state"

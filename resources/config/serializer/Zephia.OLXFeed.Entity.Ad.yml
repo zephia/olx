@@ -1,0 +1,32 @@
+Zephia\OLXFeed\Entity\Ad:
+  access_type: public_method
+  accessor_order: custom
+  custom_accessor_order: [id, title, description, contact, location, category, images, price, price_currency]
+  exclusion_policy: NONE
+  properties:
+    id:
+      type: "string"
+    category:
+      type: "string"
+    contact:
+      type: "Zephia\\OLXFeed\\Entity\\Contact"
+      inline: true
+    description:
+      type: "string"
+    images:
+      type: "array<Zephia\\OLXFeed\\Entity\\Image>"
+      xml_list:
+        inline: true
+        entry_name: "image_url"
+    location:
+      type: "Zephia\\OLXFeed\\Entity\\Location"
+      inline: true
+    price:
+      type: "int"
+    price_currency:
+      type: "int"
+      accessor:
+        getter: getPriceCurrency
+        setter: setPriceCurrency
+    title:
+      type: "string"

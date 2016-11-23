@@ -2,7 +2,7 @@ Zephia\OLXFeed\Entity\AdBag:
   access_type: public_method
   exclusion_policy: NONE
   properties:
-    vehicles:
+    ads:
       type: "array<Zephia\\OLXFeed\\Entity\\Ad>"
       xml_list:
         entry_name: ad

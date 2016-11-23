@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ads>
+  <ad>
+    <id><![CDATA[001]]></id>
+    <title><![CDATA[2009 Ford Escort – Excelente estado – 150,000 Km]]></title>
+    <description><![CDATA[Vendo Ford Escort]]></description>
+    <contact_email><![CDATA[vendo@gmail.com]]></contact_email>
+    <contact_phone><![CDATA[1145671234]]></contact_phone>
+    <location_country><![CDATA[www.olx.com.ar]]></location_country>
+    <location_state><![CDATA[capitalfederal-gba.olx.com.ar]]></location_state>
+    <location_city><![CDATA[capitalfederal.olx.com.ar]]></location_city>
+    <location_neighborhood><![CDATA[51892]]></location_neighborhood>
+    <location_latitud><![CDATA[-34.77812]]></location_latitud>
+    <location_longitude><![CDATA[-45.2389]]></location_longitude>
+    <category><![CDATA[378]]></category>
+    <vehicle_year>2009</vehicle_year>
+    <vehicle_make>25</vehicle_make>
+    <vehicle_model>178</vehicle_model>
+    <vehicle_mileage>150000</vehicle_mileage>
+    <vehicle_condition>2</vehicle_condition>
+    <vehicle_fuel>2</vehicle_fuel>
+    <vehicle_transmission>1</vehicle_transmission>
+    <image_url><![CDATA[http://www.yourdomain.com/image-1.png]]></image_url>
+    <image_url><![CDATA[http://www.yourdomain.com/image-2.png]]></image_url>
+    <image_url><![CDATA[http://www.yourdomain.com/image-3.png]]></image_url>
+    <image_url><![CDATA[http://www.yourdomain.com/image-n.png]]></image_url>
+    <price>100000</price>
+    <price_currency>26</price_currency>
+  </ad>
+</ads>
