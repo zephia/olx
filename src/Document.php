@@ -10,7 +10,6 @@
 
 namespace Zephia\OLXFeed;
 
-use JMS\Serializer\SerializationContext;
 use JMS\Serializer\SerializerInterface;
 use Zephia\OLXFeed\Entity\AdBag;
 
