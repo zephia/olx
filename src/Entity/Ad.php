@@ -87,7 +87,7 @@ class Ad extends Entity
      *
      * @return $this
      */
-    public function setId(string $id)
+    public function setId($id)
     {
         $this->id = $id;
         return $this;
@@ -115,7 +115,7 @@ class Ad extends Entity
      *
      * @return $this
      */
-    public function setCategory(string $category)
+    public function setCategory($category)
     {
         $this->category = $category;
         return $this;
@@ -171,7 +171,7 @@ class Ad extends Entity
      *
      * @return $this
      */
-    public function setDescription(string $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -268,7 +268,7 @@ class Ad extends Entity
      *
      * @return $this
      */
-    public function setPrice(int $price)
+    public function setPrice($price)
     {
         $this->price = $price;
         return $this;
@@ -296,7 +296,7 @@ class Ad extends Entity
      *
      * @return $this
      */
-    public function setPriceCurrency(int $price_currency)
+    public function setPriceCurrency($price_currency)
     {
         $this->price_currency = $price_currency;
         return $this;
@@ -324,7 +324,7 @@ class Ad extends Entity
      *
      * @return $this
      */
-    public function setTitle(string $title)
+    public function setTitle($title)
     {
         $this->title = $title;
         return $this;

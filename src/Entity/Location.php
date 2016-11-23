@@ -72,7 +72,7 @@ class Location extends Entity
      *
      * @return $this
      */
-    public function setCity(string $city)
+    public function setCity($city)
     {
         $this->city = $city;
         return $this;
@@ -100,7 +100,7 @@ class Location extends Entity
      *
      * @return $this
      */
-    public function setCountry(string $country)
+    public function setCountry($country)
     {
         $this->country = $country;
         return $this;
@@ -123,7 +123,7 @@ class Location extends Entity
      *
      * @return $this
      */
-    public function setLatitude(float $latitude)
+    public function setLatitude($latitude)
     {
         $this->latitude = $latitude;
         return $this;
@@ -146,7 +146,7 @@ class Location extends Entity
      *
      * @return $this
      */
-    public function setLongitude(float $longitude)
+    public function setLongitude($longitude)
     {
         $this->longitude = $longitude;
         return $this;
@@ -169,7 +169,7 @@ class Location extends Entity
      *
      * @return $this
      */
-    public function setNeighborhood(string $neighborhood)
+    public function setNeighborhood($neighborhood)
     {
         $this->neighborhood = $neighborhood;
         return $this;
@@ -197,7 +197,7 @@ class Location extends Entity
      *
      * @return $this
      */
-    public function setState(string $state)
+    public function setState($state)
     {
         $this->state = $state;
         return $this;

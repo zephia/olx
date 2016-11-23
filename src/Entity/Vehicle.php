@@ -63,7 +63,7 @@ class Vehicle extends Ad
      *
      * @return $this
      */
-    public function setColor(int $color)
+    public function setColor($color)
     {
         $this->color = $color;
         return $this;
@@ -91,7 +91,7 @@ class Vehicle extends Ad
      *
      * @return $this
      */
-    public function setCondition(int $condition)
+    public function setCondition($condition)
     {
         $this->condition = $condition;
         return $this;
@@ -119,7 +119,7 @@ class Vehicle extends Ad
      *
      * @return $this
      */
-    public function setFuel(int $fuel)
+    public function setFuel($fuel)
     {
         $this->fuel = $fuel;
         return $this;
@@ -147,7 +147,7 @@ class Vehicle extends Ad
      *
      * @return $this
      */
-    public function setMake(int $make)
+    public function setMake($make)
     {
         $this->make = $make;
         return $this;
@@ -170,7 +170,7 @@ class Vehicle extends Ad
      *
      * @return $this
      */
-    public function setMileage(int $mileage)
+    public function setMileage($mileage)
     {
         $this->mileage = $mileage;
         return $this;
@@ -198,7 +198,7 @@ class Vehicle extends Ad
      *
      * @return $this
      */
-    public function setModel(int $model)
+    public function setModel($model)
     {
         $this->model = $model;
         return $this;
@@ -226,7 +226,7 @@ class Vehicle extends Ad
      *
      * @return $this
      */
-    public function setTransmission(int $transmission)
+    public function setTransmission($transmission)
     {
         $this->transmission = $transmission;
         return $this;
@@ -254,7 +254,7 @@ class Vehicle extends Ad
      *
      * @return $this
      */
-    public function setYear(int $year)
+    public function setYear($year)
     {
         $this->year = $year;
         return $this;

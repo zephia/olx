@@ -52,7 +52,7 @@ class Contact extends Entity
      *
      * @return $this
      */
-    public function setEmail(string $email)
+    public function setEmail($email)
     {
         $this->email = $email;
         return $this;
@@ -80,7 +80,7 @@ class Contact extends Entity
      *
      * @return $this
      */
-    public function setPhone(int $phone)
+    public function setPhone($phone)
     {
         $this->phone = $phone;
         return $this;

@@ -46,7 +46,7 @@ class Image extends Entity
      *
      * @return $this
      */
-    public function setUrl(string $url)
+    public function setUrl($url)
     {
         $this->url = $url;
         return $this;
