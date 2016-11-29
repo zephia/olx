@@ -20,9 +20,9 @@ $ composer require zephia/olx
 
 // Instantiate serializer with configurations.
 $serializer = \JMS\Serializer\SerializerBuilder::create()
-   ->addMetadataDir(__DIR__ . '/../../resources/config/serializer')
+   ->addMetadataDir(__DIR__ . '/resources/config/serializer')
    ->build();
-   
+
 // Generate document feed
 $document = new Zephia\OLXFeed\Document($serializer);
 
