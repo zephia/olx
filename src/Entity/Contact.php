@@ -26,6 +26,11 @@ class Contact extends Entity
     private $email = '';
 
     /**
+     * @var string
+     */
+    private $name = '';
+
+    /**
      * @var int
      */
     private $phone = 0;
@@ -55,6 +60,34 @@ class Contact extends Entity
     public function setEmail($email)
     {
         $this->email = $email;
+        return $this;
+    }
+
+    /**
+     * Get Name
+     *
+     * @return int
+     */
+    public function getName()
+    {
+        if (empty($this->name)) {
+            throw new LogicException(
+                sprintf(self::ERROR_MISSING_ATTRIBUTE_FORMAT, 'name')
+            );
+        }
+        return $this->name;
+    }
+
+    /**
+     * Set Name
+     *
+     * @param int $name
+     *
+     * @return $this
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
         return $this;
     }
 

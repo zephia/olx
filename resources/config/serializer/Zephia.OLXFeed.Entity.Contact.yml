@@ -5,6 +5,9 @@ Zephia\OLXFeed\Entity\Contact:
     email:
       type: "string"
       serialized_name: "contact_email"
+    name:
+      type: "string"
+      serialized_name: "contact_name"
     phone:
       type: "string"
       serialized_name: "contact_phone"

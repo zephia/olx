@@ -49,6 +49,7 @@ class DocumentXmlTest extends \PHPUnit_Framework_TestCase
                     ->setContact(
                         (new Contact)
                             ->setEmail('vendo@gmail.com')
+                            ->setName('Autocity')
                             ->setPhone(1145671234)
                     )
                     ->setFuel(2)

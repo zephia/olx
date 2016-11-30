@@ -27,6 +27,8 @@ class ContactTest extends \PHPUnit_Framework_TestCase
         $contact = new Contact;
         $this->assertEquals($contact, $contact->setEmail('test_email'));
         $this->assertEquals('test_email', $contact->getEmail());
+        $this->assertEquals($contact, $contact->setName('test_name'));
+        $this->assertEquals('test_name', $contact->getName());
         $this->assertEquals($contact, $contact->setPhone(12345678));
         $this->assertEquals(12345678, $contact->getPhone());
     }
@@ -35,6 +37,7 @@ class ContactTest extends \PHPUnit_Framework_TestCase
     {
         return [
             ['Email', 'email'],
+            ['Name', 'name'],
             ['Phone', 'phone'],
         ];
     }
