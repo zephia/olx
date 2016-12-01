@@ -45,6 +45,7 @@ class DocumentXmlTest extends \PHPUnit_Framework_TestCase
                     ->setTitle('2009 Ford Escort – Excelente estado – 150,000 Km')
                     ->setDescription('Vendo Ford Escort')
                     ->setCategory(378)
+                    ->setColor(1)
                     ->setCondition(2)
                     ->setContact(
                         (new Contact)

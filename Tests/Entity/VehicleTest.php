@@ -48,6 +48,7 @@ class VehicleTest extends \PHPUnit_Framework_TestCase
         return [
             ['Id', 'id'],
             ['Category', 'category'],
+            ['Color', 'color'],
             ['Condition', 'condition'],
             ['Description', 'description'],
             ['Fuel', 'fuel'],

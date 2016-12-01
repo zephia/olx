@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ads>
-  <ad>
+<ADS>
+  <AD>
     <id><![CDATA[001]]></id>
     <title><![CDATA[2009 Ford Escort – Excelente estado – 150,000 Km]]></title>
     <description><![CDATA[Vendo Ford Escort]]></description>
@@ -21,11 +21,12 @@
     <vehicle_condition>2</vehicle_condition>
     <vehicle_fuel>2</vehicle_fuel>
     <vehicle_transmission>1</vehicle_transmission>
+    <vehicle_color>1</vehicle_color>
     <image_url><![CDATA[http://www.yourdomain.com/image-1.png]]></image_url>
     <image_url><![CDATA[http://www.yourdomain.com/image-2.png]]></image_url>
     <image_url><![CDATA[http://www.yourdomain.com/image-3.png]]></image_url>
     <image_url><![CDATA[http://www.yourdomain.com/image-n.png]]></image_url>
     <price>100000</price>
     <price_currency>26</price_currency>
-  </ad>
-</ads>
+  </AD>
+</ADS>

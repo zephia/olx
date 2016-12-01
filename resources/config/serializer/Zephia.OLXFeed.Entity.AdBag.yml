@@ -5,6 +5,7 @@ Zephia\OLXFeed\Entity\AdBag:
     ads:
       type: "array<Zephia\\OLXFeed\\Entity\\Ad>"
       xml_list:
-        entry_name: ad
+        entry_name: AD
         inline: true
-  xml_root_name: ads
+  # Needs to be uppercase.
+  xml_root_name: ADS
