@@ -23,7 +23,7 @@ class Vehicle extends Ad
     /**
      * @var int
      */
-    private $color = 0;
+    private $color = null;
 
     /**
      * @var int
@@ -67,11 +67,6 @@ class Vehicle extends Ad
      */
     public function getColor()
     {
-        /*if (empty($this->color)) {
-            throw new LogicException(
-                sprintf(self::ERROR_MISSING_ATTRIBUTE_FORMAT, 'color')
-            );
-        }*/
         return $this->color;
     }
 
