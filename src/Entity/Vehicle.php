@@ -67,11 +67,11 @@ class Vehicle extends Ad
      */
     public function getColor()
     {
-        if (empty($this->color)) {
+        /*if (empty($this->color)) {
             throw new LogicException(
                 sprintf(self::ERROR_MISSING_ATTRIBUTE_FORMAT, 'color')
             );
-        }
+        }*/
         return $this->color;
     }
 
